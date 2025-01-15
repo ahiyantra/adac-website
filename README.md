@@ -8,18 +8,18 @@ This is a single-page static website for the ADAC. It features their team's vari
 
 ## Features.
 
-- Responsive design for all screen sizes.
+- A responsive design for all screen sizes.
 - Sections: Header, Services, About, Offers, Contact, Footer.
-- Simple and clean UI/UX.
+- A simple & clean UI/UX.
 - Easily deployable through vercel.
 
 ## Installation.
 
-- Fork the repository on gitub.
-- Clone the repository to compute.
+1. Fork the repository on gitub.
+2. Clone the repository to computer.
 
    ```bash
-   git clone https://github.com/yourusername/adac-website.git
+   git clone https://github.com/yourprofileusername/adac-website.git
    cd adac-website
    ```
 
