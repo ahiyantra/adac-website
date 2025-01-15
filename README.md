@@ -1,5 +1,6 @@
 # adac-website
-a simple website made at the request of an acquaintance
+
+A relatively simple website made at the request of an acquaintance.
 
 # Introduction.
 
@@ -20,13 +21,16 @@ This is a single-page static website for the ADAC. It features their various ser
    ```bash
    git clone https://github.com/yourusername/adac-website.git
    cd adac-website
+   ```
 
 ## Dependencies.
 
    ```bash
    npm install
+   ```
 
 ## Server.
 
    ```bash
    npm start
+   ```
