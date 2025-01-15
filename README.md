@@ -2,9 +2,9 @@
 
 A relatively simple website made at the request of an acquaintance.
 
-# Introduction.
+## Introduction.
 
-This is a single-page static website for the ADAC. It features their various services & contact details, among other things, with a responsive design.
+This is a single-page static website for the ADAC. It features their team's various services & contact details, among other things, with a responsive design.
 
 ## Features.
 
@@ -15,8 +15,8 @@ This is a single-page static website for the ADAC. It features their various ser
 
 ## Installation.
 
-1. Fork the repository on gitub.
-2. Clone the repository to compute.
+- Fork the repository on gitub.
+- Clone the repository to compute.
 
    ```bash
    git clone https://github.com/yourusername/adac-website.git
