@@ -1,0 +1,8 @@
+css
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #333;
+    --background-color: #f4f4f4;
+    --text-color: #444;
+    --font-family: 'Roboto', sans-serif;
+  }
