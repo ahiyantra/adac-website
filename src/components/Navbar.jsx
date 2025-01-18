@@ -1,5 +1,7 @@
 import React from 'react';
 
+console.log('navbar dot js file address:', window.location.href);
+
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-container">

@@ -7,6 +7,8 @@ import Offers from './components/Offers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+console.log('app dot js file address:', window.location.href);
+
 const App = () => (
   <>
     <Navbar />

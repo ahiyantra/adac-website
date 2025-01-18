@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "A single-page static website for the ADAC.",
     "homepage": "https://adac.vercel.app/" ,
+    "outputDirectory": "build",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",

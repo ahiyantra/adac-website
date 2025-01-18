@@ -4,6 +4,8 @@ import App from './App';
 import './styles/main.css';
 import './styles/variables.css';
 
+console.log('index dot js file address:', window.location.href);
+
 const rootElement = document.getElementById('root');
 if (!rootElement) {
   console.error('Root container not found');

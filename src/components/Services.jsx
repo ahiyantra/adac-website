@@ -1,5 +1,7 @@
 import React from 'react';
 
+console.log('services dot js file address:', window.location.href);
+
 const Services = () => (
   <section id="services" className="section">
     <h2>Our Services.</h2>

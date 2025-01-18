@@ -1,5 +1,7 @@
 import React from 'react';
 
+console.log('contact dot js file address:', window.location.href);
+
 const Contact = () => (
   <section id="contact" className="section">
     <h2>Contact Us.</h2>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+console.log('about dot js file address:', window.location.href);
+
 const About = () => (
   <section id="about" className="section">
     <h2>About Us.</h2>
