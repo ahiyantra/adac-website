@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './styles/main.css';
-import './styles/variables.css';
 
 console.log('index dot js file address:', window.location.href);
 

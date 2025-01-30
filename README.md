@@ -13,7 +13,7 @@ This is a single-page static website for the ADAC. It features their team's vari
 - A simple & clean UI/UX.
 - Easily deployable through vercel.
 
-## Installation.
+## Setting Up Repository.
 
 1. Fork the repository on gitub.
 2. Clone the repository to computer.
@@ -23,14 +23,21 @@ This is a single-page static website for the ADAC. It features their team's vari
    cd adac-website
    ```
 
-## Dependencies.
+## Installing Dependencies.
 
    ```bash
    npm install
    ```
 
-## Server.
+## Running Server.
 
    ```bash
    npm start
+   ```
+
+## Running After Building.
+
+   ```bash
+   npm run build
+   serve -s build
    ```

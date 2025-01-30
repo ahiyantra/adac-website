@@ -1,0 +1,49 @@
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.background-slider {
+  animation: scroll 120s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(-950vh); } /* Adjusted for gaps */
+}
+
+.background-slide {
+  width: 100vw;
+  height: 92vh; /* Creates 5vh gap between images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vh; /* Gap between images */
+}
+
+.background-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Prevent cropping */
+  filter: brightness(0.7) contrast(1.2);
+  position: relative;
+  z-index: 0;
+}
+
+/* Dark overlay for better readability */
+.background-container::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
